@@ -1,0 +1,116 @@
+* {
+	margin : 0;
+	padding : 0;
+}
+
+/*body:before {
+	content : "";
+	position : absolute;
+	top : 0;
+	left : 0;
+	width : 100%;
+	height : 100%;
+	opacity : .09;
+	z-index : -1;
+	background-image : url(../images/back.png);
+	background-size : cover;
+}*/
+
+body {
+	overflow: paged-y;
+	background-image : url(../images/backops.png);
+	background-size : cover;
+}
+
+.Hwrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.wrapper {
+	flex: 1 0 auto;
+	width : 70%;
+	margin-left : 15%;
+}
+
+.hr {
+	width : 100%;
+	margin-bottom : 10px;
+}
+.icon {
+	width : 40px;
+	float : right;
+	margin : 0 20px;
+}
+
+#logo {
+	content : url(../images/logo.png);
+}
+
+#git {
+	content : url(../images/githubicon.png);
+}
+#git:hover {
+	content : url(../images/githubicon_hovered.png);
+}
+
+#telegram {
+	content : url(../images/telegramicon.png);
+}
+#telegram:hover {
+	content : url(../images/telegramicon_hovered.png);
+}
+
+nav {
+	text-align : center;
+}
+
+nav img {
+	height : 30px;
+	display : inline-block;
+	margin : 0 40px;
+}
+
+#projects {
+	content : url(../images/projects.png);
+}
+#projects:hover {
+	content : url(../images/projects_hovered.png);
+}
+
+#blog {
+	content : url(../images/blog.png);
+}
+#blog:hover {
+	content : url(../images/blog_hovered.png);
+}
+
+header {
+	margin-top: 25px;
+	width : 100%;
+	min-height : 100px;
+}
+
+#logo {
+	width : 150px;
+}
+
+footer {
+	/*padding : 10px;
+	padding-left : 30px; */
+	text-align : center; 
+	flex: 0 0 auto;
+	height : 40px;
+	background: rgba(0, 0, 0, 0.8);
+	color : #e2e2e2;
+	font-family : Pecita;
+	margin-top: 40px;
+}
+
+br {
+	content : "";
+	margin : 2px;
+	display : block;
+	font-size : 10%;
+}

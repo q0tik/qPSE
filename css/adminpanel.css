@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Pecita;
+}
+
+body {
+    background: rgba(0,255,0, 0.5);
+    background: url(../images/adminbackops.png);
+}
+
+header {
+    margin: 17px 7%;
+}
+
+.wrapper {
+    width: 86%;
+    margin: 7px 7%;
+}
+
+.menu {
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 20px; /* ширина для вертикального скролла */
+    height: 4px; /* высота для горизонтального скролла */
+    background-color: #484646;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+    background-color: #535353;
+    border-radius: 9em;
+    box-shadow: inset 1px 1px 10px #f3faf7;
+}
+
+.list {
+    margin-top: 20px;
+    overflow-y: scroll;
+    width: 100%;
+    height: calc(100vh - 400px);
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.listcontline {
+    padding: 16px 16px;
+    font-size: 20px;
+    text-align: center;
+}
+.listcontline p {
+    font-family: sans-serif;
+}
+
+.listcontline img {
+    height: 15px;
+}
+
+/*buttons*/
+.button {
+    background-color: #429952; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 16px;
+    margin: 4px 6px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    /*margin: 10px 37%;*/
+}
+
+.smallbtn {
+    background-color: #c18fc0; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 3px 4px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover, .smallbtn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #8a8cff;
+}
+
+.logout {
+    background-color: #1e4822;
+    margin-top: -12px;
+    float: right;
+}
+
+.stats {
+    background-color: #f82727;
+}
+
+/*etc*/
+.hr {
+    width : 88%;
+    margin-left: 6%;
+    margin-bottom : 10px;
+}

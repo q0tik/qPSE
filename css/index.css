@@ -1,0 +1,93 @@
+.content {
+	width : 100%;
+	font-family: Alpha;
+	letter-spacing: 3px;
+	font-size: 40px;
+	background: url("/images/contentFrame.png");
+	background-size: 100% 100%;
+}
+
+.contentWrapper {
+	padding: 30px;
+}
+.content a {
+	text-decoration: none;
+}
+
+.content p {
+	text-indent: 30px;
+}
+
+#me {
+	font-weight: bold;
+	font-size: 44px;
+	letter-spacing: 1px;
+	color: #0000be;
+}
+
+.smile {
+	color: #004100;
+	text-indent: 0;
+	text-align: center;
+	font-size: 40px;
+	display: inline-block;
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.smile_small {
+
+	text-indent: 0;
+	text-align: center;
+	font-size: 30px;
+	display: inline-block;
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.smile_inverse {
+	text-align: center;
+	font-size: 45px;
+	display: inline-block;
+	-moz-transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
+
+
+#hi {
+	text-align: center;
+	font-size: 50px;
+}
+
+#intro {
+	font-size: 30px;
+	text-align: center;
+	padding: 30px;
+}
+
+#thx {
+	color: darkblue;
+	font-size: 20px;
+}
+
+#jpb {
+	float: right;
+	width: 40%;
+	margin: 20px 2% 20px 5%;
+}
+
+#phpcoffin {
+	float: left;
+	width: 40%;
+	margin: 20px 5% 0px 1%;
+
+}
